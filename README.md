@@ -1,15 +1,10 @@
-# project_name
+# Forest Cover Prediction
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
-
-A short description of the project.
+EDA and Model Training on the public dataset https://www.kaggle.com/datasets/uciml/forest-cover-type-dataset
 
 ## Project Organization
 
 ```
-├── LICENSE            <- Open-source license if one is chosen
 ├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
 ├── README.md          <- The top-level README for developers using this project.
 ├── data
@@ -22,9 +17,7 @@ A short description of the project.
 │
 ├── models             <- Trained and serialized models, model predictions, or model summaries
 │
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
+├── notebooks    
 │
 ├── pyproject.toml     <- Project configuration file with package metadata for 
 │                         project_name and configuration for tools like black
@@ -39,7 +32,7 @@ A short description of the project.
 │
 ├── setup.cfg          <- Configuration file for flake8
 │
-└── project_name   <- Source code for use in this project.
+└── forest_cover_pred   <- Source code for use in this project.
     │
     ├── __init__.py             <- Makes project_name a Python module
     │
