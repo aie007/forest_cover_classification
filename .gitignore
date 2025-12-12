@@ -1,6 +1,7 @@
 # Data
-# /data/
+/data/interim/train_split.csv
 
+/models/*.joblib
 # Mac OS-specific storage files
 .DS_Store
 
